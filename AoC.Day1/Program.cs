@@ -17,8 +17,7 @@ namespace AoC.Day1
         public static int[] Parse(string raw)
         {
             return raw.SplitByBlankLine()
-                .Select(x => x.SplitByNewline<int>())
-                .Select(x => x.Sum())
+                .Select(x => x.SplitByNewline<int>().Sum())
                 .OrderByDescending(x => x)
                 .ToArray();
         }
