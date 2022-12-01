@@ -1,3 +1,4 @@
+using AoC.Day1;
 using NUnit.Framework;
 using System.Collections.Generic;
 
@@ -5,9 +6,9 @@ namespace AoC.Test
 {
     public class Day1Tests
     {
-        private IEnumerable<int> _data;
+        private IEnumerable<int> _data = null!;
 
-        [SetUp]
+        [OneTimeSetUp]
         public void Setup()
         {
             _data = Program.Parse(@"1000

@@ -16,11 +16,10 @@ namespace AoC.Common
                 .ToArray();
         }
 
-        public static T[] SplitByBlankLine<T>(this string input)
+        public static string[] SplitByBlankLine(this string input)
         {
             return input
                 .Split(new[] { "\r\r", "\n\n", "\r\n\r\n" }, StringSplitOptions.RemoveEmptyEntries)
-                .Select(x => (T)Convert.ChangeType(x, typeof(T)))
                 .ToArray();
         }
 
