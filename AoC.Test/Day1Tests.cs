@@ -6,7 +6,7 @@ namespace AoC.Test
 {
     public class Day1Tests
     {
-        private IEnumerable<int> _data = null!;
+        private int[] _data = null!;
 
         [OneTimeSetUp]
         public void Setup()

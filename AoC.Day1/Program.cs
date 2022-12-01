@@ -14,22 +14,23 @@ namespace AoC.Day1
             Console.WriteLine($"Task 2: {Task2(data)}");
         }
 
-        public static IEnumerable<int> Parse(string raw)
+        public static int[] Parse(string raw)
         {
             return raw.SplitByBlankLine()
                 .Select(x => x.SplitByNewline<int>())
-                .Select(x => x.Sum());
+                .Select(x => x.Sum())
+                .OrderByDescending(x => x)
+                .ToArray();
         }
 
-        public static int Task1(IEnumerable<int> input)
+        public static int Task1(int[] input)
         {
-            return input.Max(x => x);
+            return input.First();
         }
 
-        public static int Task2(IEnumerable<int> input)
+        public static int Task2(int[] input)
         {
             return input
-                .OrderByDescending(x => x)
                 .Take(3)
                 .Sum();
         }
