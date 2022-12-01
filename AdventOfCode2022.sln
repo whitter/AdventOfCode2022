@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32002.185
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AoC.Day1", "AoC.Day1\AoC.Day1.csproj", "{B48E8490-D189-4A48-AAB1-F262B73C3E88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AoC.Common", "AoC.Common\AoC.Common.csproj", "{9152D971-7CC3-4348-B533-167BF7AE47BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AoC.Test", "AoC.Test\AoC.Test.csproj", "{7F59F708-478D-43D9-AF21-3FFE363BA641}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B48E8490-D189-4A48-AAB1-F262B73C3E88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B48E8490-D189-4A48-AAB1-F262B73C3E88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B48E8490-D189-4A48-AAB1-F262B73C3E88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B48E8490-D189-4A48-AAB1-F262B73C3E88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9152D971-7CC3-4348-B533-167BF7AE47BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9152D971-7CC3-4348-B533-167BF7AE47BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9152D971-7CC3-4348-B533-167BF7AE47BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9152D971-7CC3-4348-B533-167BF7AE47BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F59F708-478D-43D9-AF21-3FFE363BA641}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F59F708-478D-43D9-AF21-3FFE363BA641}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F59F708-478D-43D9-AF21-3FFE363BA641}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F59F708-478D-43D9-AF21-3FFE363BA641}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FF3B4B14-CE67-4157-BA4A-07890E5D2882}
+	EndGlobalSection
+EndGlobal
