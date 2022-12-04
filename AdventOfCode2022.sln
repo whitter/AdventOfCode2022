@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AoC.Common", "AoC.Common\Ao
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AoC.Test", "AoC.Test\AoC.Test.csproj", "{7F59F708-478D-43D9-AF21-3FFE363BA641}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AoC.Day2", "AoC.Day2\AoC.Day2.csproj", "{52773D2E-C21D-401E-98B5-AACA182EBD24}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AoC.Day2", "AoC.Day2\AoC.Day2.csproj", "{52773D2E-C21D-401E-98B5-AACA182EBD24}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AoC.Day3", "AoC.Day3\AoC.Day3.csproj", "{4195EEED-118C-4BA9-9A3D-18EE32FD0C02}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AoC.Day3", "AoC.Day3\AoC.Day3.csproj", "{4195EEED-118C-4BA9-9A3D-18EE32FD0C02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AoC.Day4", "AoC.Day4\AoC.Day4.csproj", "{89CC6515-4F46-4265-8845-49BF899CA1C9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{4195EEED-118C-4BA9-9A3D-18EE32FD0C02}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4195EEED-118C-4BA9-9A3D-18EE32FD0C02}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4195EEED-118C-4BA9-9A3D-18EE32FD0C02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89CC6515-4F46-4265-8845-49BF899CA1C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89CC6515-4F46-4265-8845-49BF899CA1C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89CC6515-4F46-4265-8845-49BF899CA1C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89CC6515-4F46-4265-8845-49BF899CA1C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

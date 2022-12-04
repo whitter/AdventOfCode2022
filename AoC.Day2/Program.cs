@@ -42,9 +42,9 @@ namespace AoC.Day2
         {
             int score = 0;
 
-            foreach((int op, int me) round in input)
+            foreach((int op, int me) in input)
             {
-                score += Score(round.op, round.me);
+                score += Score(op, me);
             }
 
             return score;
@@ -54,10 +54,11 @@ namespace AoC.Day2
         {
             int score = 0;
             
-            foreach ((int op, int me) round in input)
+            foreach ((int op, int me) in input)
             {
-                var mod = (round.op + round.me - 1) % 3;
-                score += Score(round.op, mod < 0 ? mod + 3 : mod);
+                var mod = (op + me - 1) % 3;
+
+                score += Score(op, mod < 0 ? mod + 3 : mod);
             }            
 
             return score;
